@@ -8,5 +8,6 @@ http.createServer(function (req, res) {
 	console.log("pull...");
         exec('sh ./deploy.sh')
     }
+    console.log("server start!");
     res.end()
 }).listen(4002)
