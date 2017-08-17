@@ -6,7 +6,11 @@ http.createServer(function (req, res) {
     if(req.url === '/webhooks/push/blog'){
         // 如果url匹配，表示认证通过，则执行 sh ./deploy.sh
 	console.log("pull...");
-        exec('sh ./deploy.sh')
+        exec('sh ./deploy.sh', (error, stdout, stderr) => {
+		if(error) { console.log("error:" + error); return; }
+		if(stderr) { console.log("stderr:" + stderr); return; }
+		console.log(stdout.slice(0, -1);
+	})
     }
     console.log("server start!");
     res.end()
