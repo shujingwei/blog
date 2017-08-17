@@ -4,6 +4,7 @@ var exec = require('child_process').exec
 http.createServer(function (req, res) {
     // console.log(req);
     // 该路径与WebHooks中的路径部分需要完全匹配，实现简易的授权认证。
+    console.log(req.url);
     if(req.url === '/webhooks/push/blog'){
         // 如果url匹配，表示认证通过，则执行 sh ./deploy.sh
 	console.log("pull...");
