@@ -10,4 +10,4 @@ http.createServer(function (req, res) {
     }
     console.log("server start!");
     res.end()
-}).listen(4002)
+}).listen(4001);
