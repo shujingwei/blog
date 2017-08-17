@@ -8,7 +8,7 @@ http.createServer(function (req, res) {
 	console.log("pull...");
         exec('sh ./deploy.sh', (error, stdout, stderr) => {
 		if(error) { console.log("error:" + error); return; }
-		if(stderr) { console.log("stderr:" + stderr); return; }
+		if(stderr) { console.log("stderr:" + stderr); }
 		console.log(stdout.slice(0, -1));
 	})
     }
