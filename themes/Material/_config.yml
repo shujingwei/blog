@@ -71,9 +71,9 @@ background:
 # Images Settings
 img:
     logo: "/img/logo.png"
-    avatar: "/img/avatar.png"
+    avatar: "/img/avatar.jpg"
     daily_pic: "/img/daily_pic.png"
-    sidebar_header: "/img/sidebar_header.png"
+    sidebar_header: "/img/sidebar_header.jpg"
     random_thumbnail: "/img/random/material-"
     footer_image:
         #upyun_logo:
@@ -120,8 +120,8 @@ toc:
 
 # SNS Menu
 sns:
-    email: youremail@email.com
-    facebook: "https://www.facebook.com/facebook"
+    email: asjw789456123@gmail.com
+    facebook: "https://www.facebook.com/bakasugars"
     twitter: "https://twitter.com/twitter"
     googleplus: "https://www.google.com/"
     weibo:
