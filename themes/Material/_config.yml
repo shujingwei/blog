@@ -70,10 +70,10 @@ background:
 
 # Images Settings
 img:
-    logo: "/img/logo.png"
+    logo: "/img/logo.gif"
     avatar: "/img/avatar.jpg"
-    daily_pic: "/img/daily_pic.png"
-    sidebar_header: "/img/sidebar_header.jpg"
+    daily_pic: "/img/daily_pic.gif"
+    sidebar_header: "/img/sidebar_header.gif"
     random_thumbnail: "/img/random/material-"
     footer_image:
         #upyun_logo:
